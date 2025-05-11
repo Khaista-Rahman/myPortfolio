@@ -3,6 +3,10 @@ import './Experience.css';
 import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import watchImage from "../components/images/latest1 .avif"
+import groupImage from "../components/images/groupPic.jpg"
+import serviceCenter from "../components/images/service-center.jpg"
+
 
 
 function Projects(){
@@ -72,21 +76,21 @@ function Projects(){
 
       <div className="w-full mt-10 flex flex-wrap justify-evenly">
         <div class="book">
-            <p>Hello</p>
+            <p className="text-center text-sm font-bold ml-6">Crafted a sleek, responsive website for a luxury watch company, blending timeless design with modern technology. From smooth animations to clean product showcases, this digital storefront mirrors the craftsmanship of fine timepieces—elegant, bold, and built to last.</p>
             <div class="cover">
-                <p>Hover Me</p>
+                <img src={watchImage} alt="image was not downloaded" className="w-full h-full bg-cover bg-center"/>
             </div>
           </div>
           <div class="book">
-            <p>Hello</p>
+            <p className="text-center text-sm font-bold ml-6">Designed a modern loan application platform focused on simplicity, trust, and speed. With clear call-to-actions and smooth form flow, users can apply for loans with confidence—because financial freedom should be just a few clicks away.</p>
             <div class="cover">
-                <p>Hover Me</p>
+            <img src={groupImage} alt="image was not downloaded" className="w-full h-full bg-cover bg-center"/>
             </div>
           </div>
           <div class="book">
-            <p>Hello</p>
+            <p className="text-center text-sm font-bold ml-6">Crafted a robust and professional website for a construction company, showcasing projects, services, and expertise with bold visuals and solid structure. Just like their buildings—strong, reliable, and made to impress.</p>
             <div class="cover">
-                <p>Hover Me</p>
+            <img src={serviceCenter} alt="image was not downloaded" className="w-full h-full bg-cover bg-center"/>
             </div>
           </div>
       </div>
